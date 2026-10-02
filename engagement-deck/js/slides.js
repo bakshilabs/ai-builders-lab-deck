@@ -915,7 +915,7 @@
       if (!quiet) this.sfx(b.id, v);
     },
     hud: function (id, v) {
-      if (id === "planet") return hudItem("Gravity", v < 2 ? "1 × Earth" : "½ × Earth", v < 2 ? "guess" : "") + hudItem("Planet", v === 0 ? "Earth-like" : "Small and red", v === 0 ? "guess" : "") + hudItem("Jump", v < 2 ? "0.5 m" : "1.0 m", v === 2 ? "win" : "");
+      if (id === "planet") return hudItem("Gravity", v === 0 ? "1 × Earth" : v === 1 ? "Like Mars" : "½ × Earth", v === 0 ? "guess" : "") + hudItem("Planet", v === 0 ? "Earth-like" : "Small and red", v === 0 ? "guess" : "") + hudItem("Jump", v === 0 ? "0.5 m" : v === 1 ? "1.3 m" : "1.0 m", v === 2 ? "win" : "");
       if (id === "kick") {
         if (v === 0) return hudItem("Angle", "70°", "guess") + hudItem("Result", "Drops short", "bad");
         return (

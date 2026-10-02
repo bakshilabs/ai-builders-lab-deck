@@ -332,7 +332,7 @@
         route: "#/build/planet/1",
         versions: [
           { skill: "Say what you want", prompt: "Make a planet", guess: "Earth-like gravity", result: "An Earth-like planet. Everything the AI guessed is highlighted." },
-          { skill: "Add details", prompt: "Make a small red planet like Mars", result: "Small and red now. The gravity is still the AI's guess." },
+          { skill: "Add details", prompt: "Make a small red planet like Mars", result: "Small and red like Mars, so the AI used Mars's gravity. The jump is 1.3 m." },
           { skill: "Add numbers", prompt: "Make gravity half of Earth's so my astronaut can jump twice as high", predict: "Predict first: half the gravity, twice the jump?", result: "Tested: the jump goes from 0.5 m to 1.0 m." },
         ],
       },

@@ -52,6 +52,7 @@ html.no-anim *::after {
 }
 .minilabel svg {
   width: 20px;
+  min-width: 20px;
   height: 20px;
 }
 .minilabel--pink {
@@ -70,6 +71,7 @@ html.no-anim *::after {
 }
 .mini svg {
   width: 17px;
+  min-width: 17px;
   height: 17px;
 }
 .mini small {
@@ -415,6 +417,7 @@ html.no-anim *::after {
 }
 .s-with__foot svg {
   width: 32px;
+  min-width: 32px;
   height: 32px;
   color: var(--pink-400);
 }
@@ -557,6 +560,7 @@ html.no-anim *::after {
 }
 .s-listen__hub > svg {
   width: 34px;
+  min-width: 34px;
   height: 34px;
 }
 .s-listen__hub .num {
@@ -643,6 +647,7 @@ html.no-anim *::after {
 }
 .gbub__ic svg {
   width: 30px;
+  min-width: 30px;
   height: 30px;
 }
 .gbub__name {
@@ -723,6 +728,7 @@ html.no-anim *::after {
 }
 .gdet__ic svg {
   width: 28px;
+  min-width: 28px;
   height: 28px;
 }
 .gdet__k {
@@ -761,6 +767,7 @@ html.no-anim *::after {
 }
 .gdet__foot svg {
   width: 20px;
+  min-width: 20px;
   height: 20px;
 }
 
@@ -922,6 +929,7 @@ html.no-anim *::after {
 }
 .cpanel__qs svg {
   width: 30px;
+  min-width: 30px;
   height: 30px;
   flex-shrink: 0;
   margin-top: 2px;
@@ -940,6 +948,7 @@ html.no-anim *::after {
 }
 .cpanel__foot svg {
   width: 20px;
+  min-width: 20px;
   height: 20px;
   color: var(--lime-400);
 }
@@ -965,6 +974,7 @@ html.no-anim *::after {
 }
 .s-clock__play svg {
   width: 32px;
+  min-width: 32px;
   height: 32px;
 }
 .s-clock__track {
@@ -1147,6 +1157,7 @@ html.no-anim *::after {
 }
 .leg__sw svg {
   width: 18px;
+  min-width: 18px;
   height: 18px;
 }
 .s-synth__cards {
@@ -1197,6 +1208,7 @@ html.no-anim *::after {
 }
 .pile__ic svg {
   width: 24px;
+  min-width: 24px;
   height: 24px;
 }
 .pile__text {
@@ -1256,6 +1268,7 @@ html.no-anim *::after {
 }
 .princ__label svg {
   width: 34px;
+  min-width: 34px;
   height: 34px;
 }
 .princ__slots {
@@ -1378,6 +1391,7 @@ html.no-anim *::after {
 }
 .wplan__total svg {
   width: 22px;
+  min-width: 22px;
   height: 22px;
 }
 .wbar {
@@ -1595,6 +1609,7 @@ html.no-anim *::after {
 }
 .s-live__label svg {
   width: 20px;
+  min-width: 20px;
   height: 20px;
 }
 .s-live__changes {
@@ -1612,6 +1627,7 @@ html.no-anim *::after {
 }
 .s-live__changes svg {
   width: 26px;
+  min-width: 26px;
   height: 26px;
   padding: 4px;
   border-radius: 50%;
@@ -1861,6 +1877,7 @@ html.no-anim *::after {
 }
 .mrole svg {
   width: 16px;
+  min-width: 16px;
   height: 16px;
 }
 .mrole--ai {
@@ -1905,6 +1922,7 @@ html.no-anim *::after {
 }
 .mdet__t svg {
   width: 46px;
+  min-width: 46px;
   height: 46px;
 }
 .mdet__row {
@@ -1934,6 +1952,7 @@ html.no-anim *::after {
 }
 .mdet__who svg {
   width: 18px;
+  min-width: 18px;
   height: 18px;
 }
 .mdet__who--child {
@@ -2201,6 +2220,7 @@ html.no-anim *::after {
 }
 .app__label svg {
   width: 14px;
+  min-width: 14px;
   height: 14px;
 }
 .app__title {
@@ -2340,6 +2360,7 @@ html.no-anim *::after {
 }
 .app__prompt svg {
   width: 22px;
+  min-width: 22px;
   height: 22px;
   flex-shrink: 0;
 }
@@ -2368,6 +2389,7 @@ html.no-anim *::after {
 }
 .app__undo svg {
   width: 16px;
+  min-width: 16px;
   height: 16px;
 }
 .app__try {
@@ -2388,6 +2410,7 @@ html.no-anim *::after {
 }
 .app__try svg {
   width: 20px;
+  min-width: 20px;
   height: 20px;
   flex-shrink: 0;
 }
@@ -2701,6 +2724,7 @@ html.no-anim *::after {
 }
 .s-train__kitlist svg {
   width: 26px;
+  min-width: 26px;
   height: 26px;
   padding: 5px;
   border-radius: 50%;
@@ -2753,6 +2777,7 @@ html.no-anim *::after {
 }
 .s-train__hub svg {
   width: 22px;
+  min-width: 22px;
   height: 22px;
   color: var(--teal-600);
   flex-shrink: 0;
@@ -2786,6 +2811,7 @@ html.no-anim *::after {
 }
 .s-pilot__facts svg {
   width: 36px;
+  min-width: 36px;
   height: 36px;
   padding: 7px;
   border-radius: 12px;
@@ -2824,6 +2850,7 @@ html.no-anim *::after {
 }
 .s-pilot__tabs svg {
   width: 22px;
+  min-width: 22px;
   height: 22px;
 }
 .sc__q {
@@ -2898,6 +2925,7 @@ html.no-anim *::after {
 }
 .s-pilot__foot svg {
   width: 22px;
+  min-width: 22px;
   height: 22px;
   color: var(--teal-600);
   flex-shrink: 0;
@@ -2933,6 +2961,7 @@ html.no-anim *::after {
 }
 .rcheck__k svg {
   width: 30px;
+  min-width: 30px;
   height: 30px;
   color: var(--teal-600);
 }
@@ -2959,6 +2988,7 @@ html.no-anim *::after {
 }
 .rcheck__hint svg {
   width: 20px;
+  min-width: 20px;
   height: 20px;
 }
 .rcheck__groups {
@@ -2987,6 +3017,7 @@ html.no-anim *::after {
 }
 .rcheck__list svg {
   width: 20px;
+  min-width: 20px;
   height: 20px;
   padding: 3px;
   border-radius: 50%;
@@ -3088,6 +3119,7 @@ html.no-anim *::after {
 }
 .sat__ic svg {
   width: 28px;
+  min-width: 28px;
   height: 28px;
 }
 .sat__t {
@@ -3111,6 +3143,7 @@ html.no-anim *::after {
 }
 .sat__ok svg {
   width: 18px;
+  min-width: 18px;
   height: 18px;
 }
 .sat.is-ok .sat__ok {
@@ -3149,6 +3182,7 @@ html.no-anim *::after {
 }
 .s-real__rule > svg {
   width: 40px;
+  min-width: 40px;
   height: 40px;
   padding: 8px;
   border-radius: 12px;
@@ -3169,6 +3203,7 @@ html.no-anim *::after {
 .s-real__seq svg {
   display: inline-block;
   width: 14px;
+  min-width: 14px;
   height: 14px;
   vertical-align: -1px;
   color: var(--lime-400);
@@ -3207,6 +3242,7 @@ html.no-anim *::after {
 }
 .s-real__flow svg {
   width: 32px;
+  min-width: 32px;
   height: 32px;
   padding: 6px;
   border-radius: 50%;
@@ -3338,6 +3374,7 @@ html.no-anim *::after {
 }
 .src__ic svg {
   width: 30px;
+  min-width: 30px;
   height: 30px;
 }
 .src__ic--lime {
@@ -3371,6 +3408,7 @@ html.no-anim *::after {
 }
 .tray svg {
   width: 34px;
+  min-width: 34px;
   height: 34px;
   padding: 6px;
   border-radius: 50%;
@@ -3400,6 +3438,7 @@ html.no-anim *::after {
 }
 .lane svg {
   width: 30px;
+  min-width: 30px;
   height: 30px;
   color: var(--teal-600);
 }
@@ -3420,6 +3459,7 @@ html.no-anim *::after {
 }
 .release__head svg {
   width: 32px;
+  min-width: 32px;
   height: 32px;
 }
 .release__items {
@@ -3479,6 +3519,7 @@ html.no-anim *::after {
 }
 .sharecard__head svg {
   width: 22px;
+  min-width: 22px;
   height: 22px;
 }
 .sharecard__t {
@@ -3516,6 +3557,7 @@ html.no-anim *::after {
 }
 .token svg {
   width: 22px;
+  min-width: 22px;
   height: 22px;
 }
 .token--teal {
@@ -3818,6 +3860,7 @@ html.no-anim *::after {
 }
 .gnode svg {
   width: 30px;
+  min-width: 30px;
   height: 30px;
 }
 .gnode--big svg {
@@ -3922,6 +3965,7 @@ html.no-anim *::after {
 }
 .fcard__ic svg {
   width: 32px;
+  min-width: 32px;
   height: 32px;
 }
 .fcard h3 {
@@ -4016,6 +4060,7 @@ html.no-anim *::after {
 }
 .need__ic svg {
   width: 28px;
+  min-width: 28px;
   height: 28px;
 }
 .need b {
@@ -4044,6 +4089,7 @@ html.no-anim *::after {
 }
 .need__ok svg {
   width: 26px;
+  min-width: 26px;
   height: 26px;
 }
 .need__link {
@@ -4196,6 +4242,7 @@ html.no-anim *::after {
 }
 .gate__ok svg {
   width: 26px;
+  min-width: 26px;
   height: 26px;
 }
 .gate.is-open .gate__ok {
@@ -4284,6 +4331,7 @@ html.no-anim *::after {
 }
 .s-gates__mt svg {
   width: 30px;
+  min-width: 30px;
   height: 30px;
   color: var(--teal-600);
 }
@@ -4374,6 +4422,7 @@ html.no-anim *::after {
 }
 .lsay__gate svg {
   width: 24px;
+  min-width: 24px;
   height: 24px;
   flex-shrink: 0;
   color: var(--lime-400);
@@ -4401,6 +4450,7 @@ html.no-anim *::after {
 }
 .here__pin svg {
   width: 16px;
+  min-width: 16px;
   height: 16px;
 }
 .s-loop__ring {
@@ -4500,6 +4550,7 @@ html.no-anim *::after {
 }
 .lgate svg {
   width: 26px;
+  min-width: 26px;
   height: 26px;
 }
 .lgate b {
@@ -4604,6 +4655,7 @@ html.no-anim *::after {
 }
 .beat__ic svg {
   width: 32px;
+  min-width: 32px;
   height: 32px;
 }
 .beat__ic--pink {
@@ -4679,6 +4731,7 @@ html.no-anim *::after {
 }
 .s-close__gate svg {
   width: 30px;
+  min-width: 30px;
   height: 30px;
 }
 .s-close__ctas {
@@ -4816,6 +4869,7 @@ html.no-anim *::after {
 }
 .s-live__chips svg {
   width: 20px;
+  min-width: 20px;
   height: 20px;
 }
 .s-live__try li {
@@ -4887,6 +4941,7 @@ html.no-anim *::after {
 }
 .mloop__label svg {
   width: 18px;
+  min-width: 18px;
   height: 18px;
 }
 .is-looping .mloop__label {
@@ -4941,6 +4996,7 @@ html.no-anim *::after {
 }
 .vstack__k svg {
   width: 18px;
+  min-width: 18px;
   height: 18px;
 }
 .vstack {
@@ -4985,6 +5041,7 @@ html.no-anim *::after {
 }
 .vitem__v svg {
   width: 20px;
+  min-width: 20px;
   height: 20px;
 }
 .vitem--idea .vitem__v,
@@ -5014,6 +5071,7 @@ html.no-anim *::after {
 .vitem__g svg,
 .vitem__r svg {
   width: 15px;
+  min-width: 15px;
   height: 15px;
 }
 
@@ -5040,6 +5098,7 @@ html.no-anim *::after {
 }
 .ladder__k svg {
   width: 22px;
+  min-width: 22px;
   height: 22px;
 }
 .ladder {
@@ -5130,6 +5189,7 @@ html.no-anim *::after {
 }
 .s-worlds__tabs svg {
   width: 22px;
+  min-width: 22px;
   height: 22px;
 }
 .s-worlds__view {
@@ -5260,6 +5320,7 @@ html.no-webgl .wv__fallback {
 }
 .yn svg {
   width: 16px;
+  min-width: 16px;
   height: 16px;
 }
 .yn--y {
@@ -5282,6 +5343,7 @@ html.no-webgl .wv__fallback {
 }
 .wv__cap svg {
   width: 16px;
+  min-width: 16px;
   height: 16px;
 }
 .s-worlds__panel {
@@ -5311,6 +5373,7 @@ html.no-webgl .wv__fallback {
 }
 .wp__ic svg {
   width: 32px;
+  min-width: 32px;
   height: 32px;
 }
 .wp__k {
@@ -5432,6 +5495,7 @@ html.no-webgl .wv__fallback {
 .wp__guess svg,
 .wp__predict svg {
   width: 16px;
+  min-width: 16px;
   height: 16px;
 }
 .wp__rt {
@@ -5454,6 +5518,7 @@ html.no-webgl .wv__fallback {
 }
 .wp__product > svg {
   width: 32px;
+  min-width: 32px;
   height: 32px;
   color: var(--lime-400);
   flex-shrink: 0;
@@ -5498,6 +5563,7 @@ html.no-webgl .wv__fallback {
 }
 .s-unit__tabs svg {
   width: 20px;
+  min-width: 20px;
   height: 20px;
 }
 .s-unit__tag {
@@ -5550,6 +5616,7 @@ html.no-webgl .wv__fallback {
 }
 .usess__star svg {
   width: 22px;
+  min-width: 22px;
   height: 22px;
 }
 .usess.is-done {
@@ -5683,6 +5750,7 @@ html.no-webgl .wv__fallback {
 }
 .tower__prize svg {
   width: 30px;
+  min-width: 30px;
   height: 30px;
 }
 .tower__prize b {
@@ -5752,6 +5820,7 @@ html.no-webgl .wv__fallback {
 }
 .unow__prods li > svg {
   width: 32px;
+  min-width: 32px;
   height: 32px;
   padding: 6px;
   border-radius: 10px;
@@ -5847,6 +5916,7 @@ html.no-webgl .wv__fallback {
 }
 .gss svg {
   width: 20px;
+  min-width: 20px;
   height: 20px;
 }
 .gss.is-gone {
@@ -6024,6 +6094,7 @@ html.reduce-motion .orb__dash {
 }
 .s-outcome__products svg {
   width: 30px;
+  min-width: 30px;
   height: 30px;
   padding: 5px;
   border-radius: 50%;

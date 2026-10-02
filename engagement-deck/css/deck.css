@@ -491,6 +491,7 @@ h4 {
 }
 .roundbtn svg {
   width: 24px;
+  min-width: 24px;
   height: 24px;
 }
 .roundbtn--lime {
@@ -552,6 +553,7 @@ h4 {
 }
 .utilbtn svg {
   width: 20px;
+  min-width: 20px;
   height: 20px;
 }
 .utilbtn[aria-pressed="true"] {
@@ -582,6 +584,7 @@ h4 {
 }
 .navbtn svg {
   width: 26px;
+  min-width: 26px;
   height: 26px;
 }
 .navbtn--next {
@@ -919,6 +922,7 @@ h4 {
 }
 .rotate-hint svg {
   width: 18px;
+  min-width: 18px;
   height: 18px;
 }
 @media (orientation: portrait) and (max-width: 900px) {
@@ -1009,6 +1013,7 @@ h4 {
 }
 .eyebrow svg {
   width: 28px;
+  min-width: 28px;
   height: 28px;
 }
 .on-light .eyebrow {
@@ -1111,6 +1116,7 @@ svg.i {
 }
 .node__icon svg {
   width: 28px;
+  min-width: 28px;
   height: 28px;
 }
 .node--lime {
@@ -1167,6 +1173,7 @@ svg.i {
 }
 .arrow svg {
   width: 28px;
+  min-width: 28px;
   height: 28px;
 }
 .arrow--sm {
@@ -1175,6 +1182,7 @@ svg.i {
 }
 .arrow--sm svg {
   width: 22px;
+  min-width: 22px;
   height: 22px;
 }
 .arrow--navy {
@@ -1273,6 +1281,7 @@ svg.i {
 }
 .tag svg {
   width: 20px;
+  min-width: 20px;
   height: 20px;
 }
 .tag--know {
@@ -1352,6 +1361,7 @@ svg.i {
 }
 .slot svg {
   width: 24px;
+  min-width: 24px;
   height: 24px;
   flex-shrink: 0;
   color: var(--teal-500);
@@ -1387,6 +1397,7 @@ svg.i {
 }
 .chip svg {
   width: 22px;
+  min-width: 22px;
   height: 22px;
 }
 .chip--lime {
@@ -1475,6 +1486,7 @@ svg.i {
 }
 .btn__arrow svg {
   width: 24px;
+  min-width: 24px;
   height: 24px;
 }
 .btn:hover .btn__arrow {
@@ -1502,6 +1514,7 @@ svg.i {
 }
 .btn--sm .btn__arrow svg {
   width: 20px;
+  min-width: 20px;
   height: 20px;
 }
 .btn--plain {
@@ -1536,6 +1549,7 @@ svg.i {
 }
 .ticker__item svg {
   width: 22px;
+  min-width: 22px;
   height: 22px;
 }
 .ticker--navy {
@@ -1669,6 +1683,7 @@ svg.i {
 }
 .phslot__cap svg {
   width: 20px;
+  min-width: 20px;
   height: 20px;
   flex-shrink: 0;
   color: var(--lime-400);
@@ -1758,6 +1773,7 @@ svg.i {
 }
 .screen__url svg {
   width: 15px;
+  min-width: 15px;
   height: 15px;
 }
 .screen img {
@@ -1921,6 +1937,7 @@ html.no-webgl .three-fallback {
 }
 .snd-ic svg {
   width: 20px;
+  min-width: 20px;
   height: 20px;
 }
 #btn-sound[aria-pressed="false"] {
@@ -2007,5 +2024,11 @@ html.no-webgl .three-fallback {
 }
 .shot__ph--sm .shot__ic svg {
   width: 24px;
+  min-width: 24px;
   height: 24px;
+}
+
+/* Tags never shrink in a tight flex row (Safari would squeeze the text over the border) */
+.tag {
+  flex-shrink: 0;
 }
