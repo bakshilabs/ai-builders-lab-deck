@@ -1,0 +1,236 @@
+/* ==========================================================================
+   AI Builders Lab — design tokens
+   Palette sampled from the supplied computerxplorers.co.uk captures
+   (navy #0b012b, lime #dbe751, teal #49a7a9, pink #efabcd).
+   Fonts are bundled locally so the product works behind school firewalls.
+   ========================================================================== */
+
+@font-face {
+  font-family: "Lilita One";
+  src: url("../assets/fonts/lilita-one-latin.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Lexend";
+  src: url("../assets/fonts/lexend-latin-var.woff2") format("woff2");
+  font-weight: 300 800;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "JetBrains Mono";
+  src: url("../assets/fonts/jetbrains-mono-latin-var.woff2") format("woff2");
+  font-weight: 400 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  /* ---- Brand palette ---------------------------------------------------- */
+  --navy-950: #0b012b;
+  --navy-900: #130742;
+  --navy-850: #1a0d52;
+  --navy-800: #221561;
+  --navy-700: #31247a;
+  --navy-600: #4a3f92;
+  --navy-400: #8a82b8;
+
+  --lime-200: #f1f6c0;
+  --lime-300: #e7ef85;
+  --lime-400: #dbe751;
+  --lime-500: #c8d53a;
+  --lime-600: #a9b621;
+  --lime-700: #7e8a0e;
+
+  --teal-100: #dff1f1;
+  --teal-200: #b5dfe0;
+  --teal-300: #7fc4c6;
+  --teal-400: #49a7a9;
+  --teal-500: #33898c;
+  --teal-600: #1f6d70;
+  --teal-700: #145356;
+
+  --pink-200: #fbe3ee;
+  --pink-300: #f5c7dd;
+  --pink-400: #efabcd;
+  --pink-500: #e483b3;
+  --pink-600: #c85b93;
+
+  --orange-400: #f07c3a;
+  --orange-500: #d9642a;
+  --blue-400: #4a86f2;
+
+  --cream-50: #fbf9f5;
+  --cream-100: #f6f3ee;
+  --cream-200: #ece7de;
+  --cream-300: #ddd6ca;
+  --white: #ffffff;
+
+  /* ---- Semantic tokens (brief §31) ------------------------------------- */
+  --cx-primary: var(--lime-400);
+  --cx-secondary: var(--teal-400);
+  --cx-accent: var(--pink-400);
+  --cx-background: var(--navy-950);
+  --cx-surface: var(--white);
+  --cx-text: var(--navy-950);
+  --cx-muted: #5c5775;
+  --cx-border: rgba(11, 1, 43, 0.12);
+
+  /* Contextual (re-assigned by .on-navy / .on-teal / .on-cream) */
+  --fg: var(--cx-text);
+  --fg-muted: var(--cx-muted);
+  --line: var(--cx-border);
+  --bg: var(--cream-100);
+  --card: var(--white);
+  --heading: var(--navy-950);
+  --accent-text: var(--teal-600);
+
+  /* Authorship colours used across Build Mode */
+  --author-starter: #8b86a3;
+  --author-you: var(--lime-400);
+  --author-ai: var(--pink-400);
+
+  /* Status */
+  --ok: #2fa36b;
+  --warn: var(--orange-400);
+  --bad: #e5484d;
+
+  /* ---- Typography ------------------------------------------------------ */
+  --font-display: "Lilita One", "Arial Rounded MT Bold", "Trebuchet MS", system-ui, sans-serif;
+  --font-body: "Lexend", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --font-code: "JetBrains Mono", ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace;
+
+  --fs-hero: clamp(3.6rem, 1.4rem + 8.6vw, 10.5rem);
+  --fs-d1: clamp(3rem, 1.4rem + 5.8vw, 7.25rem);
+  --fs-d2: clamp(2.35rem, 1.3rem + 3.8vw, 4.9rem);
+  --fs-d3: clamp(1.85rem, 1.25rem + 2.1vw, 3.1rem);
+  --fs-d4: clamp(1.4rem, 1.15rem + 0.95vw, 2.05rem);
+  --fs-d5: clamp(1.15rem, 1.05rem + 0.4vw, 1.4rem);
+  --fs-lead: clamp(1.12rem, 1rem + 0.45vw, 1.38rem);
+  --fs-body: 1.0625rem;
+  --fs-small: 0.9375rem;
+  --fs-tiny: 0.8125rem;
+  --fs-micro: 0.72rem;
+
+  --lh-tight: 0.92;
+  --lh-snug: 1.18;
+  --lh-body: 1.55;
+
+  /* ---- Space ----------------------------------------------------------- */
+  --s-1: 0.25rem;
+  --s-2: 0.5rem;
+  --s-3: 0.75rem;
+  --s-4: 1rem;
+  --s-5: 1.5rem;
+  --s-6: 2rem;
+  --s-7: 3rem;
+  --s-8: 4rem;
+  --s-9: 6rem;
+  --s-10: 8rem;
+  --gutter: clamp(1rem, 0.4rem + 2.6vw, 3rem);
+  --section-y: clamp(4rem, 2.6rem + 6vw, 9rem);
+  --maxw: 1320px;
+  --maxw-text: 64ch;
+
+  /* ---- Shape ----------------------------------------------------------- */
+  --r-xs: 8px;
+  --r-sm: 12px;
+  --r-md: 18px;
+  --r-lg: 28px;
+  --r-xl: 40px;
+  --r-pill: 999px;
+  --frame: 7px; /* white photo frame, as on the CX site */
+
+  /* ---- Elevation ------------------------------------------------------- */
+  --shadow-sm: 0 2px 6px rgba(11, 1, 43, 0.08), 0 1px 2px rgba(11, 1, 43, 0.06);
+  --shadow-md: 0 14px 34px -14px rgba(11, 1, 43, 0.35), 0 2px 6px rgba(11, 1, 43, 0.06);
+  --shadow-lg: 0 34px 70px -28px rgba(11, 1, 43, 0.55), 0 6px 14px rgba(11, 1, 43, 0.08);
+  --shadow-navy: 0 30px 70px -24px rgba(0, 0, 0, 0.7);
+  --shadow-press: 0 5px 0 0 rgba(11, 1, 43, 0.9);
+
+  /* ---- Motion ---------------------------------------------------------- */
+  --ease-out: cubic-bezier(0.2, 0.8, 0.2, 1);
+  --ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
+  --ease-spring: cubic-bezier(0.34, 1.56, 0.64, 1);
+  --dur-1: 120ms;
+  --dur-2: 220ms;
+  --dur-3: 420ms;
+  --dur-4: 800ms;
+
+  --topbar-h: 84px;
+  --z-top: 50;
+  --z-menu: 60;
+  --z-tour: 80;
+  --z-modal: 90;
+  --z-toast: 100;
+}
+
+/* Colour contexts ---------------------------------------------------------- */
+.on-navy {
+  --fg: #ffffff;
+  --fg-muted: rgba(255, 255, 255, 0.74);
+  --line: rgba(255, 255, 255, 0.14);
+  --bg: var(--navy-950);
+  --card: var(--navy-850);
+  --heading: #ffffff;
+  --accent-text: var(--lime-400);
+  background-color: var(--navy-950);
+  color: var(--fg);
+}
+.on-navy-2 {
+  --fg: #ffffff;
+  --fg-muted: rgba(255, 255, 255, 0.74);
+  --line: rgba(255, 255, 255, 0.14);
+  --bg: var(--navy-900);
+  --card: var(--navy-800);
+  --heading: #ffffff;
+  --accent-text: var(--lime-400);
+  background-color: var(--navy-900);
+  color: var(--fg);
+}
+.on-teal {
+  --fg: var(--navy-950);
+  --fg-muted: rgba(11, 1, 43, 0.78);
+  --line: rgba(11, 1, 43, 0.16);
+  --bg: var(--teal-400);
+  --card: #ffffff;
+  --heading: #ffffff;
+  --accent-text: var(--navy-950);
+  background-color: var(--teal-400);
+  color: var(--fg);
+}
+.on-cream {
+  --fg: var(--navy-950);
+  --fg-muted: var(--cx-muted);
+  --line: var(--cx-border);
+  --bg: var(--cream-100);
+  --card: #ffffff;
+  --heading: var(--navy-950);
+  --accent-text: var(--teal-600);
+  background-color: var(--cream-100);
+  color: var(--fg);
+}
+.on-white {
+  --fg: var(--navy-950);
+  --fg-muted: var(--cx-muted);
+  --line: var(--cx-border);
+  --bg: #ffffff;
+  --card: var(--cream-100);
+  --heading: var(--navy-950);
+  --accent-text: var(--teal-600);
+  background-color: #ffffff;
+  color: var(--fg);
+}
+.on-lime {
+  --fg: var(--navy-950);
+  --fg-muted: rgba(11, 1, 43, 0.75);
+  --line: rgba(11, 1, 43, 0.16);
+  --bg: var(--lime-400);
+  --card: #ffffff;
+  --heading: var(--navy-950);
+  --accent-text: var(--navy-950);
+  background-color: var(--lime-400);
+  color: var(--fg);
+}
